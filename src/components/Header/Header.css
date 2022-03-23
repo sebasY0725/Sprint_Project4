@@ -1,0 +1,35 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 3.25rem;
+}
+
+.header img:first-child {
+    width: 2.8125rem;
+    height: 2.8125rem;
+    border-radius: 50%;
+}
+
+
+.header img:nth-child(2) {
+    width: 2.8125rem;
+    height: 1.6875rem;
+    margin-right: 6.5625rem;
+    margin-left: 14.3125rem;
+
+}
+
+.header img:nth-child(3) {
+    width: 9.9375rem;
+    height: 0.92rem;
+}
+
+@media screen and (max-width: 450px) {
+    
+    .header img:nth-child(2){
+        margin-left: 90px;
+        margin-right: 30px;
+    }
+}
