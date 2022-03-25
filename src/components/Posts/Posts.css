@@ -1,0 +1,115 @@
+  
+  .users {
+    width: 50%;
+    background-color: rgb(99, 214, 218);
+    margin: 15px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+  }
+  .post {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    border-radius: 5px;
+    margin: 5px;
+    height: 15.375rem;
+    font-size: 1.125rem;
+    color: #ffffff;
+    font-family: 'Fira Code', monospace;
+    font-weight: 28.125rem;
+    border-bottom:2px solid #60265B ;
+    margin-top:  30px;
+
+  }
+  
+  .actionBtn {
+    cursor: pointer;
+    padding: 10px;
+    margin-left: 10px;
+  }
+  .containerPosts{
+    display: flex; 
+    justify-content: center;
+    border-top: 2px solid #60265B;
+  
+  }
+
+  .photo_user{    
+      width: 3.5rem;
+      height: 3.5rem;
+      border-radius: 50%;
+      margin-right: 10px;
+  }
+  .username{
+    font-family: silkscreen;
+    font-weight: 700;
+    font-size: 1.25rem;
+    color:#2E132C;
+    margin-right: 0.75rem;
+    
+  }
+  .message{
+    word-wrap: break-word;
+    font-family: 'Fira Code', monospace;
+    font-weight: 450;
+    font-size: 1.125rem;
+    color: #ffffff;
+    width: 31.25rem;
+    height: 7rem;
+    text-align: left;
+    margin-bottom: 1.5625rem;
+  }
+
+  .containerUsername{
+    display: flex;
+  }
+  .container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.0625rem;
+  }
+
+  .likePost{
+    display: flex;
+    text-align: left;
+    font-size: 1rem;
+ }
+
+  .likePost img{
+    margin-right: 0.75rem;
+    width: 1.5rem;
+    height: 1.25rem;
+  }
+  
+
+  
+@media screen and (max-width: 600px) {
+    .container {
+      width: 300px;
+    }
+
+    .post{
+      width: 400px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+  .container {
+    width: 250px;
+  }
+
+  .post{
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .container {
+    width: 200px;
+  }
+
+  .post{
+    width: 300px;
+  }
+}
