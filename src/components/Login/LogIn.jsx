@@ -13,7 +13,7 @@ function LogIn() {
 
   return (
     <div className="LogInGoogle">
-      <p>Welcome to DEVS UNITED network</p>
+      <p> to DEVS UNITED network</p>
       <p>Comparte tus opiniones y pensamientos e interactúa con los posts de los demás usuarios</p>
       <br />
       {userLog.uid.length !== 0 ? (
